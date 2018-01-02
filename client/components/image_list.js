@@ -5,7 +5,7 @@ import ImageDetail from './image_detail';
 
 // Create our component
 const ImageList = (props) => {
-    const validImages = props.images.filter(image => !image.is_album);
+    const validImages = props.images.filter(image => !image.is_album).filter(image => image.type !== "video/mp4");
 
     const RenderedImages = validImages.map(image =>
         <ImageDetail key={image.title} image={image}/>
