@@ -1,4 +1,4 @@
-.idea/workspace.xml
-.meteor/local/
-node_modules/
-.awsDeploy/SandboxApp.pem
+images/.idea/workspace.xml
+images/.meteor/local/
+images/node_modules/
+images/.awsDeploy/SandboxApp.pem
