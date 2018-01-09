@@ -1,7 +1,7 @@
 module.exports = {
   servers: {
     one: {
-      host: '13.57.225.39',
+      host: '13.57.25.240',
       username: 'ubuntu',
       pem: 'SandboxApp.pem'
       // password: 'server-password'
@@ -23,7 +23,7 @@ module.exports = {
 
     env: {
       // If you are using ssl, it needs to start with https://
-      ROOT_URL: 'http://13.57.225.39',
+      ROOT_URL: 'http://13.57.25.240',
       MONGO_URL: 'mongodb://localhost/meteor',
     },
 
