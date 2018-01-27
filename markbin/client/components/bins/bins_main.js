@@ -7,7 +7,7 @@ import BinsShare from './bins_share';
 
 class BinsMain extends Component{
     render() {
-        if (!this.props.bin) { return <div>Loading...</div>}
+        if (!this.props.bin) { return <div>Loading...</div>; }
 
         return (
             <div>
